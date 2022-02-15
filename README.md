@@ -23,3 +23,7 @@ Create a .env file and fill the variables then export them to the terminal:
 
 ```forge verify-contract ./src/Numbers.sol:Numbers <contract-address>```
 
+Interacting with the smart contract:
+
+```cast send <contract-address> "mint(uint256)()" <amount-to-mint> --private-key <private-key>```
+
